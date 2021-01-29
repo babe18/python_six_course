@@ -1,5 +1,5 @@
-import random
-rnum=random.randint(1,100)
+from random import randint
+rnum=randint(1,100)
 flag=True
 while(flag):
     _input=int(input("請猜一個1~99的整數:"))

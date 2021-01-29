@@ -1,3 +1,4 @@
+#成績
 grade = int(input("請輸入分數:"))
 if(grade>=97 and grade<=100):
     print("A+")

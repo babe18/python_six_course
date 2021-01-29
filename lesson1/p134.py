@@ -1,7 +1,11 @@
-import math
-radius=10
-area=math.pi*pow(radius,2)
-print(area)
-num=2
-num2=math.sqrt(num)
-print(num2)
+a=float(input("Enter a number:"))
+b=float(input("Enter a number to divide by:"))
+# print(f"The answer is {a/b}.")
+try:
+    print(f"The answer is {a/b}.")
+except:
+    print("This did not work .Did you try to divide by zero?")
+else:
+    print("You successfully divided two numbers.")
+finally:
+    print("Thank you")
